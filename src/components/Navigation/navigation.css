@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 26px;
+    font-size: 16px;
+    background-color: rgb(247, 247, 247);
+}
+
+.header ul{
+    display: flex;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.header li{
+    display: inline;
+    text-align: center;
+}
+
+.header li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13c943;
+    text-decoration: none;
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.account-user{
+    font-size: 16px;
+}
+
+.right-account-secssion{
+    display: flex;
+    gap: 16px;
+}
+
+.right-account-secssion button{
+    padding: 6px 16px;
+    border: 1px solid #1d1f1e;
+    border-radius: 3px;
+    background-color: #404040;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
